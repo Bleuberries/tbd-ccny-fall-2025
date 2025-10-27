@@ -12,12 +12,12 @@ public class player_Controls : MonoBehaviour
 
     public Transform destination;
     [SerializeField] private float player_Speed;
-    [SerializeField] private float jump_Height;
+    [SerializeField] public float jump_Height;
     [SerializeField] private float air_Speed;
     private float air_Control;
 
 
-    private bool isGrounded;
+    public bool isGrounded;
     
     // Start is called before the first frame update
     void Start()
